@@ -5,7 +5,7 @@
    ========================================================================== */
 
    body{
-   	background: #eee;
+   	background: #EDEBE6;
    	padding-top: 0;
    }
 
@@ -32,14 +32,15 @@
 	}
 
 	.v_title{
-		font-size: 48px;
-		font-family: "Merriweather" !important;
+		font-size: 36px;
+		font-family: Raleway !important;
+    font-weight: bold;
 	}
 
 	.v_description{
-		  font-size: 24px;
+		  font-size: 14px;
   margin-top: 36px;
-  margin-bottom: 98px;
+  margin-bottom: 60px;
     font-family: "Open Sans" !important;
 	}
 
@@ -51,6 +52,12 @@
 		width: 100%;
 	background: white;
 	}
+
+  @media (min-width: 1200px){
+.container {
+  width: 1250px !important;
+}
+}
 
 	@media (min-width: 1200px) {
     .fluid-nav-cus{
@@ -75,6 +82,50 @@
 
   .head-space{
   	margin-bottom: 28px;
+  }
+
+  .side-logo{
+    background-image: url(../img/kami1.png?1426485854) !important;
+    background-repeat: no-repeat;
+  background-size: cover;
+    height: 100%;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #22374C;
+  padding: 30px;
+  width: 300px;
+  }
+
+  .side-logo:before{
+      content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(34,55,76,0.6);
+  }
+
+  .link-nav{
+    /*color: white;*/
+    display: inline-block;
+    font-size: 18px;
+    color:#eee;
+  /*    color: #c41e3a;
+  background: #eee;*/
+  }
+
+  .link-nav:hover{
+    color: white;
+  }
+
+  .v-share a{
+      color: #eee;
+  font-size: 30px;
+  margin-right: 10px;
   }
 
 

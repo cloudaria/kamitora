@@ -1,0 +1,38 @@
+<div class="container-full">
+<div class="container" style="padding-left:15px;">
+          <img class="logo-img" src="img/tori_logo.jpg" alt="">
+          <h1 class="v_title" id="heading">△TORIHANA </h1>
+          <p class="v_description" style="margin-bottom:0;">香港でここだけ！　元祖濃厚鶏白湯ラーメン！</p>
+          <p class="v_description" style="margin-top:0;">The One and Only in HK!  　Rich Toripaitan Ramen from Tokyo! Freshly Made Everyday!</p>
+        </div>
+
+        </div>
+
+        <div class="container-full1 nav1">
+          <nav class="navbar navbar-default">
+  <div class="container-fluid fluid-nav-cus">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- <a class="navbar-brand" href="#">Brand</a> -->
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/toriana">Customer Stories <span class="sr-only">(current)</span></a></li>
+        <li><a href="/toriana/philosophy">Philosophy</a></li>
+        <li><a href="/toriana/outlets">Outlets</a></li>
+
+      </ul>
+
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+        </div>
