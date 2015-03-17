@@ -84,7 +84,8 @@
   	margin-bottom: 28px;
   }
 
-  .side-logo{
+  @media (min-width: 1200px){
+    .side-logo{
     background-image: url(../img/kami1.png?1426485854) !important;
     background-repeat: no-repeat;
   background-size: cover;
@@ -98,6 +99,26 @@
   padding: 30px;
   width: 300px;
   }
+  }
+
+  @media (min-width: 600px){
+    .side-logo{
+    background-image: url(../img/kami1.png?1426485854) !important;
+    background-repeat: no-repeat;
+  background-size: cover;
+    /*height: 100%;*/
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #22374C;
+  padding: 30px;
+  /*width: 300px;*/
+  }
+  }
+
+
 
   .side-logo:before{
       content: "";
